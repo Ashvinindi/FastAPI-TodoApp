@@ -1,0 +1,17 @@
+# Virtual Environment
+fastapienv/
+venv/
+env/
+
+# IDE Settings
+.idea/
+.vscode/
+
+# SQLite Databases
+*.db
+test.db
+todos.db
+
+# Python Bytecode & Cache
+__pycache__/
+*.pyc
