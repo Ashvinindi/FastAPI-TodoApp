@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "TodoApp/main.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "TodoApp/main.py"
+    }
+  ]
+}
