@@ -1,4 +1,4 @@
 import sys
 sys.path.append('.')
 
-from TodoApp.main import app
+from main import app
